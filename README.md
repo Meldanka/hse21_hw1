@@ -73,7 +73,7 @@
      ```
      time platanus gap_close -o Poil -t 1 -c Poil_scaffold.fa -IP1 trimmed_fastq/sub1.fastq.trimmed trimmed_fastq/sub2.fastq.trimmed -OP2 trimmed_fastq/mp1.fastq.int_trimmed trimmed_fastq/mp2.fastq.int_trimmed 2> gapclose.log
 
- 12. В итоге создаем файл longest.fasta
+ 12. В итоге создаем файл longest.fasta:
      ```
      seqtk subseq Poil_gapClosed.fa _tmp.txt > longest.fasta
 
