@@ -78,6 +78,7 @@
      seqtk subseq Poil_gapClosed.fa _tmp.txt > longest.fasta
 
     
-
+Ссылка на google colab с кодом:
+https://colab.research.google.com/drive/1v-0GeajQmD5fXgNxCCZvaaA37F7TN3Ma#scrollTo=b_C1HqDUqpQL
 
  
