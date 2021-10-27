@@ -1,7 +1,8 @@
 # hse21_hw1
- 1. Создаем папку hw:
- mkdir hw
- cd hw
+   1. Создаем папку hw:
+      ```
+      mkdir hw
+      cd hw
  2. Создаем ссылки в личной папке:
 + ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}
  3. Выбираем случайные чтения с помощью команды seqtk (5 миллионов чтений типа paired-end и 1.5 миллиона чтений типа mate-pairs):
