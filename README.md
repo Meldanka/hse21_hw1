@@ -65,8 +65,8 @@
     time platanus scaffold -o Poil -c Poil_contig.fa -IP1 trimmed_fastq/sub1.fastq.trimmed  trimmed_fastq/sub2.fastq.trimmed -OP2 trimmed_fastq/mp1.fastq.int_trimmed trimmed_fastq/mp2.fastq.int_trimmed 2> scaffold.log
 10. Создадим файл с самым длинным скаффолдом и удалим ненужный файл:
     ```
-    echo scaffold1_len3838093_cov231 > _tmp.txt
-    seqtk subseq Poil_scaffold.fa.txt _tmp.txt > scaffold1_len3838093_cov231.fna
+    echo scaffold1_len3838093_cov232 > _tmp.txt
+    seqtk subseq Poil_scaffold.fa.txt _tmp.txt > scaffold1_len3838093_cov232.fna
     rm -r _tmp.txt
     
  11. Используя программу platanus gap_close уменьшаем количество гэпов:
@@ -75,6 +75,7 @@
 
  12. В итоге создаем файл longest.fasta:
      ```
+     echo scaffold_cov232 > _tmp.txt
      seqtk subseq Poil_gapClosed.fa _tmp.txt > longest.fasta
 
     
