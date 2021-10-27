@@ -69,7 +69,7 @@
     seqtk subseq Poil_scaffold.fa.txt _tmp.txt > scaffold1_len3838093_cov231.fna
     rm -r _tmp.txt
     
- 11. Используя программу platanus gap_close уменьщаем количество гэпов:
+ 11. Используя программу platanus gap_close уменьшаем количество гэпов:
      ```
      time platanus gap_close -o Poil -t 1 -c Poil_scaffold.fa -IP1 trimmed_fastq/sub1.fastq.trimmed trimmed_fastq/sub2.fastq.trimmed -OP2 trimmed_fastq/mp1.fastq.int_trimmed trimmed_fastq/mp2.fastq.int_trimmed 2> gapclose.log
 
@@ -80,5 +80,13 @@
     
 Ссылка на google colab с кодом:
 https://colab.research.google.com/drive/1v-0GeajQmD5fXgNxCCZvaaA37F7TN3Ma#scrollTo=b_C1HqDUqpQL
+<img width="1189" alt="Снимок экрана 2021-10-27 в 23 01 45" src="https://user-images.githubusercontent.com/91221560/139138770-2918940c-02b0-49d5-b1f3-fa700360af38.png">
+<img width="1189" alt="Снимок экрана 2021-10-27 в 23 02 02" src="https://user-images.githubusercontent.com/91221560/139138798-ed1d4ae0-76b2-4f49-841c-c4883f3241df.png">
+<img width="1189" alt="Снимок экрана 2021-10-27 в 23 02 29" src="https://user-images.githubusercontent.com/91221560/139138875-241509e4-a57c-440d-9aa7-ad023c56fb47.png">
+
+
+
+
+
 
  
